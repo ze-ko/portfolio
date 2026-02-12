@@ -402,5 +402,26 @@ a {
   .hero-actions {
     justify-content: center;
   }
+  @media (max-width: 900px) {
+
+  .hero-grid,
+  .project-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  /* FIX GLASS EDGE ISSUE */
+  .section {
+    margin: 0 16px 80px 16px;
+    padding: 80px 24px;
+  }
+
 }
+
+}
+
 
