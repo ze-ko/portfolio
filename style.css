@@ -219,6 +219,23 @@ a {
 .section p {
   color: var(--text-muted);
 }
+.about-subtitle {
+  margin-top: 40px;
+  font-size: 1.3rem;
+  margin-bottom: 16px;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+}
+
+.about-list li {
+  padding: 10px 0;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+
 
 /* SKILLS */
 .skill-list {
@@ -386,3 +403,4 @@ a {
     justify-content: center;
   }
 }
+
